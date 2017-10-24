@@ -45,11 +45,11 @@ echo DatePicker::widget([
 ```php
 <?php
 
-namespace yii\components\MyClass;
+namespace yii\components;
 
-use yii\base\BaseObject;
+use yii\base\Object;
 
-class MyClass extends BaseObject
+class MyClass extends Object
 {
     public $prop1;
     public $prop2;
